@@ -1,0 +1,135 @@
+
+}
+
+.list-unstyled{
+  display:flex;
+  flex-direction: center;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.fellowsDead{
+  float:center;
+  text-align:center;
+}
+
+.pil{
+  float:center;
+  text-align:center;
+}
+
+em {
+  color: orange;
+  font-style: normal;
+}
+
+.orange {
+    color: orange;
+}
+
+.wow{
+    position: relative;
+    z-index: 1;
+    opacity: 0.9;
+    padding-top:10px;
+    margin: 0 20px;
+    border: 0px;
+}
+
+.wow:hover {
+    opacity: 1;
+}
+
+.gold-profil {
+    background-color: white;
+    position: absolute;
+    top: 80px;
+    left: 10%;
+    width: 80%;
+    padding: 0 15px; 
+    border-radius: 15px;
+    text-align: center;
+    z-index: 2;
+    opacity: 0.8;
+}
+
+.profile{
+  text-decoration: : black;
+}
+a:hover .profile{
+  color:black;
+}
+
+a:hover
+{
+  text-decoration: underline;
+}
+
+.imageReward{
+  float:right;
+  }
+
+.container-fluid{
+  padding:0px;
+}
+
+.gold-profil p {
+    color: black;
+    font-size: 2.2vw;
+}
+
+.wow:hover .gold-profil {
+    opacity: 0;
+}
+
+.name-profil {
+    position: absolute;
+    z-index: 2;
+    top: 200px;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.name-profil span{
+    color: white;
+    font-size: 2.2vw;
+}
+
+.wow:hover .name-profil {
+  position:absolute;
+  top: 300px;
+  text-align: center;
+}
+
+
+
+
+.wow:hover .name-profil {
+  position:absolute;
+  top: 100px;
+  text-align: center;
+}
+
+.wow:hover .name-profil span {
+  font-size: 2.2vw;
+}
+.titre{
+  text-align: center
+}
+
+.car{
+  font-size:2.2vw;
+}
+
+@media (max-width:576px) {
+  .name-profil span{
+   font-size:2em;
+  }
+  .gold-profil p{
+    font-size:2em;
+  }
+  .wow:hover .name-profil span {
+  font-size: 2em;
+}
